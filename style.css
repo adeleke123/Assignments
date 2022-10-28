@@ -1,0 +1,180 @@
+/*Landing Page*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(173, 245, 245);
+    height: 100vh;
+    max-width: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+    cursor: pointer;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    color: burlywood;
+  }
+  input {
+    height: 2.5em;
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 10px;
+    outline-color: blue;
+    border: 0;
+    background: rgb(226, 218, 218);
+    color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(226, 138, 23);
+  }
+  .container {
+    margin: 10px auto;
+    max-width: 450px;
+    width: 100%;
+    padding: 10px;
+  }
+  .form-main {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.7);
+  }
+  .main,
+  .sub {
+    margin: 60px;
+  }
+  .firstname {
+    width: 90%;
+    position: relative;
+    bottom: 45px;
+    border-radius: 15px;
+  }
+  .lastname {
+    width: 90%;
+    position: relative;
+    bottom: 25px;
+    border-radius: 15px;
+  }
+  .email {
+    width: 90%;
+    position: relative;
+    bottom: 5px;
+    border-radius: 15px;
+  }
+  .phone {
+    width: 90%;
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+  }
+  .gender {
+    position: relative;
+    bottom: 30px;
+  }
+  .birth {
+    position: relative;
+    right: 10px;
+  }
+  .datetime {
+    width: 190px;
+    border-radius: 15px;
+  }
+  .datetime,
+  .birth {
+    position: relative;
+    bottom: 5px;
+  }
+  .fav {
+    position: relative;
+    right: 30px;
+  }
+  .color {
+    width: 150px;
+  }
+  .color,
+  .fav {
+    position: relative;
+    top: 25px;
+  }
+  .button {
+    margin: 16px auto;
+    display: block;
+    width: 15em;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(152, 108, 192);
+    background: burlywood;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.7);
+    transition: all 200ms ease;
+  }
+  .button:hover {
+    color: blueviolet;
+    background-color: cadetblue;
+    cursor: grab;
+  }
+  
+  .login {
+    font-size: 20px;
+  }
+  
+  /*Login Page*/
+  .emailone {
+    width: 90%;
+    position: relative;
+    bottom: 30px;
+    border-radius: 15px;
+  }
+  .password {
+    width: 90%;
+    position: relative;
+    bottom: 5px;
+    border-radius: 15px;
+  }
+  .register {
+    width: 90%;
+    position: relative;
+    bottom: 25px;
+    border-radius: 15px;
+  }
+  
+  /*Success Page*/
+  
+  h2 {
+    text-align: center;
+    font-weight: 900;
+    color: burlywood;
+    padding: 5px;
+  }
+  img {
+    display: block;
+    margin: 13px auto;
+    border-radius: 20px;
+    width: 100%;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+  }
+  button {
+    margin: 16px auto;
+    display: block;
+    width: 15em;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 1px solid rgb(152, 108, 192);
+    background: burlywood;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.7);
+    transition: all 200ms ease-in;
+  }
+  button:hover {
+    color: blueviolet;
+    background-color: rgb(137, 179, 180);
+    cursor: grab;
+  }
